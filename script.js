@@ -34,6 +34,13 @@ const galleries = {
       { src: 'assets/photos/home-garden-exterior.jpg', alt: 'Garden View Home modern senior living exterior with landscaped drive', caption: 'A modern care home exterior with clean landscaping and a premium, peaceful feel.' },
       { src: 'assets/photos/home-garden-courtyard.jpg', alt: 'Garden View Home sunny courtyard with patio and garden walking path', caption: 'A serene courtyard and garden patio with accessible walking paths and shaded seating.' }
     ]
+  },
+  maple: {
+    title: 'Maple Haven Residence',
+    photos: [
+      { src: 'assets/photos/home-maple-exterior.png', alt: 'Maple Haven Residence accessible senior living exterior with landscaped walkway', caption: 'A bright residential care home exterior with a welcoming porch, accessible path, and mature landscaping.' },
+      { src: 'assets/photos/home-maple-living.png', alt: 'Maple Haven Residence open living room and dining common area', caption: 'A warm living and dining area designed for family visits, daily routines, and comfortable shared time.' }
+    ]
   }
 };
 
