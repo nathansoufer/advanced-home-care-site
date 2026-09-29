@@ -72,12 +72,12 @@ p { color: var(--muted); margin: 0; }
   gap: 12px;
   font-weight: 900;
 }
-.brand small {
+.brand strong {
   display: block;
-  margin-top: -4px;
-  color: var(--accent);
-  font-size: 0.72rem;
+  color: var(--brand);
+  font-size: 1rem;
   font-weight: 900;
+  line-height: 1.05;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -400,6 +400,7 @@ p { color: var(--muted); margin: 0; }
   gap: 32px;
 }
 .footer-brand .brand-mark { box-shadow: none; }
+.footer-brand strong { color: #fff; }
 .site-footer p { max-width: 440px; margin-top: 14px; color: rgba(255,255,255,0.68); }
 .footer-links {
   display: flex;
