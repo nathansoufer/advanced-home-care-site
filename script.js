@@ -14,32 +14,28 @@ navLinks?.querySelectorAll('a').forEach((link) => {
 });
 
 const galleries = {
-  rosewood: {
-    title: 'Rosewood Residence',
+  jumilla: {
+    title: 'Advanced Home Care Senior Living LLC',
     photos: [
-      { src: 'assets/photos/home-rosewood-exterior.jpg', alt: 'Rosewood Residence accessible front exterior with landscaped walkway', caption: 'A warm residential exterior with a covered entry, accessible path, and peaceful landscaping.' },
-      { src: 'assets/photos/home-rosewood-living.jpg', alt: 'Rosewood Residence open living and dining common area', caption: 'A bright shared living and dining space for family visits, daily routines, and comfort.' }
+      { src: 'assets/photos/care-home-1.jpg', alt: 'Advanced Home Care Senior Living LLC exterior at 5826 Jumilla Avenue in Woodland Hills', caption: '5826 Jumilla Avenue, Woodland Hills.' }
     ]
   },
-  willow: {
-    title: 'Willow House',
+  gladbeck: {
+    title: 'Advanced Home Care Senior Living 2 LLC',
     photos: [
-      { src: 'assets/photos/home-willow-exterior.jpg', alt: 'Willow House two-story senior living residence with accessible front walkway', caption: 'A charming care home exterior with a front porch, garden, and accessible entry.' },
-      { src: 'assets/photos/home-willow-bedroom.jpg', alt: 'Willow House accessible bedroom and sitting area', caption: 'A calm private bedroom with comfortable seating, warm finishes, and senior-friendly details.' }
+      { src: 'assets/photos/care-home-2.jpg', alt: 'Advanced Home Care Senior Living 2 LLC exterior at 10109 Gladbeck Avenue in Northridge', caption: '10109 Gladbeck Ave, Northridge, CA 91324.' }
     ]
   },
-  garden: {
-    title: 'Garden View Home',
+  deveron: {
+    title: 'Advanced Senior Living LLC',
     photos: [
-      { src: 'assets/photos/home-garden-exterior.jpg', alt: 'Garden View Home modern senior living exterior with landscaped drive', caption: 'A modern care home exterior with clean landscaping and a premium, peaceful feel.' },
-      { src: 'assets/photos/home-garden-courtyard.jpg', alt: 'Garden View Home sunny courtyard with patio and garden walking path', caption: 'A serene courtyard and garden patio with accessible walking paths and shaded seating.' }
+      { src: 'assets/photos/care-home-3.jpg', alt: 'Advanced Senior Living LLC exterior at 7017 Deveron Ridge Road in West Hills', caption: '7017 Deveron Ridge Rd, West Hills, CA 91306.' }
     ]
   },
-  maple: {
-    title: 'Maple Haven Residence',
+  raymer: {
+    title: 'Advanced Senior Living 2 LLC',
     photos: [
-      { src: 'assets/photos/home-maple-exterior.png', alt: 'Maple Haven Residence accessible senior living exterior with landscaped walkway', caption: 'A bright residential care home exterior with a welcoming porch, accessible path, and mature landscaping.' },
-      { src: 'assets/photos/home-maple-living.png', alt: 'Maple Haven Residence open living room and dining common area', caption: 'A warm living and dining area designed for family visits, daily routines, and comfortable shared time.' }
+      { src: 'assets/photos/care-home-4.jpg', alt: 'Advanced Senior Living 2 LLC exterior at 17241 Raymer Street in Sherwood Forest', caption: '17241 Raymer St, Sherwood Forest, CA 91325.' }
     ]
   }
 };
@@ -62,6 +58,10 @@ function renderPhoto() {
   galleryImage.alt = photo.alt;
   galleryCaption.textContent = photo.caption;
   photoCount.textContent = `${activeIndex + 1} / ${activeGallery.photos.length}`;
+  const hasMultiplePhotos = activeGallery.photos.length > 1;
+  if (prevPhoto) prevPhoto.hidden = !hasMultiplePhotos;
+  if (nextPhoto) nextPhoto.hidden = !hasMultiplePhotos;
+  if (photoCount) photoCount.hidden = !hasMultiplePhotos;
 }
 
 function openGallery(key) {
