@@ -17,49 +17,49 @@ const galleries = {
   jumilla: {
     title: 'Advanced Home Care Senior Living LLC',
     photos: [
-      { src: 'assets/photos/care-home-1.jpg', alt: 'Exterior walkway at Advanced Home Care Senior Living LLC in Woodland Hills', caption: '5826 Jumilla Avenue, Woodland Hills.' },
-      { src: 'assets/photos/care-home-1-front.jpg', alt: 'Front exterior at Advanced Home Care Senior Living LLC', caption: 'Front exterior.' },
-      { src: 'assets/photos/care-home-1-porch.jpg', alt: 'Covered porch and walkway at Advanced Home Care Senior Living LLC', caption: 'Covered porch and walkway.' },
-      { src: 'assets/photos/care-home-1-garden.jpg', alt: 'Garden walkway at Advanced Home Care Senior Living LLC', caption: 'Outdoor walkway.' },
-      { src: 'assets/photos/care-home-1-sign.jpg', alt: 'Residential board and care sign at Advanced Home Care Senior Living LLC', caption: 'Residential board and care home.' },
-      { src: 'assets/photos/care-home-1-living.jpg', alt: 'Living and dining room at Advanced Home Care Senior Living LLC', caption: 'Shared living and dining space.' },
-      { src: 'assets/photos/care-home-1-living-wide.jpg', alt: 'Wide living and dining area at Advanced Home Care Senior Living LLC', caption: 'Shared living area.' },
-      { src: 'assets/photos/care-home-1-bedroom.jpg', alt: 'Bedroom at Advanced Home Care Senior Living LLC', caption: 'Resident bedroom.' }
+      { src: 'assets/photos/care-home-1-ai.png', alt: 'Exterior walkway at Advanced Home Care Senior Living LLC in Woodland Hills', caption: '5826 Jumilla Avenue, Woodland Hills.' },
+      { src: 'assets/photos/care-home-1-front-ai.png', alt: 'Front exterior at Advanced Home Care Senior Living LLC', caption: 'Front exterior.' },
+      { src: 'assets/photos/care-home-1-porch-ai.png', alt: 'Covered porch and walkway at Advanced Home Care Senior Living LLC', caption: 'Covered porch and walkway.' },
+      { src: 'assets/photos/care-home-1-garden-ai.png', alt: 'Garden walkway at Advanced Home Care Senior Living LLC', caption: 'Outdoor walkway.' },
+      { src: 'assets/photos/care-home-1-sign-ai.png', alt: 'Residential board and care sign at Advanced Home Care Senior Living LLC', caption: 'Residential board and care home.' },
+      { src: 'assets/photos/care-home-1-living-ai.png', alt: 'Living and dining room at Advanced Home Care Senior Living LLC', caption: 'Shared living and dining space.' },
+      { src: 'assets/photos/care-home-1-living-wide-ai.png', alt: 'Wide living and dining area at Advanced Home Care Senior Living LLC', caption: 'Shared living area.' },
+      { src: 'assets/photos/care-home-1-bedroom-ai.png', alt: 'Bedroom at Advanced Home Care Senior Living LLC', caption: 'Resident bedroom.' }
     ]
   },
   gladbeck: {
     title: 'Advanced Home Care Senior Living 2 LLC',
     photos: [
-      { src: 'assets/photos/care-home-2.jpg', alt: 'Patio at Advanced Home Care Senior Living 2 LLC in Northridge', caption: '10109 Gladbeck Ave, Northridge, CA 91324.' },
-      { src: 'assets/photos/care-home-2-patio.jpg', alt: 'Garden patio seating at Advanced Home Care Senior Living 2 LLC', caption: 'Outdoor patio seating.' },
-      { src: 'assets/photos/care-home-2-living.jpg', alt: 'Living room at Advanced Home Care Senior Living 2 LLC', caption: 'Comfortable living room.' },
-      { src: 'assets/photos/care-home-2-living-angle.jpg', alt: 'Second living room angle at Advanced Home Care Senior Living 2 LLC', caption: 'Living room seating.' },
-      { src: 'assets/photos/care-home-2-living-entry.jpg', alt: 'Living room entry view at Advanced Home Care Senior Living 2 LLC', caption: 'Living room entry view.' }
+      { src: 'assets/photos/care-home-2-ai.png', alt: 'Patio at Advanced Home Care Senior Living 2 LLC in Northridge', caption: '10109 Gladbeck Ave, Northridge, CA 91324.' },
+      { src: 'assets/photos/care-home-2-patio-ai.png', alt: 'Garden patio seating at Advanced Home Care Senior Living 2 LLC', caption: 'Outdoor patio seating.' },
+      { src: 'assets/photos/care-home-2-living-ai.png', alt: 'Living room at Advanced Home Care Senior Living 2 LLC', caption: 'Comfortable living room.' },
+      { src: 'assets/photos/care-home-2-living-angle-ai.png', alt: 'Second living room angle at Advanced Home Care Senior Living 2 LLC', caption: 'Living room seating.' },
+      { src: 'assets/photos/care-home-2-living-entry-ai.png', alt: 'Living room entry view at Advanced Home Care Senior Living 2 LLC', caption: 'Living room entry view.' }
     ]
   },
   deveron: {
     title: 'Advanced Senior Living LLC',
     photos: [
-      { src: 'assets/photos/care-home-3.jpg', alt: 'Living room at Advanced Senior Living LLC in West Hills', caption: '7017 Deveron Ridge Rd, West Hills, CA 91306.' },
-      { src: 'assets/photos/care-home-3-piano.jpg', alt: 'Piano sitting room at Advanced Senior Living LLC', caption: 'Piano sitting room.' },
-      { src: 'assets/photos/care-home-3-living-sign.jpg', alt: 'Living room with Advanced Senior Living LLC wall sign', caption: 'Shared living room.' },
-      { src: 'assets/photos/care-home-3-living.jpg', alt: 'Sofa seating area at Advanced Senior Living LLC', caption: 'Shared living room.' },
-      { src: 'assets/photos/care-home-3-tv-room.jpg', alt: 'TV room at Advanced Senior Living LLC', caption: 'TV room.' },
-      { src: 'assets/photos/care-home-3-patio.jpg', alt: 'Covered patio at Advanced Senior Living LLC', caption: 'Covered patio.' },
-      { src: 'assets/photos/care-home-3-dining.jpg', alt: 'Dining area at Advanced Senior Living LLC', caption: 'Dining area.' },
-      { src: 'assets/photos/care-home-3-open-kitchen.jpg', alt: 'Open kitchen and dining area at Advanced Senior Living LLC', caption: 'Open kitchen and dining area.' },
-      { src: 'assets/photos/care-home-3-kitchen-wide.jpg', alt: 'Kitchen at Advanced Senior Living LLC', caption: 'Kitchen.' },
-      { src: 'assets/photos/care-home-3-bedroom-pink.jpg', alt: 'Pink resident bedroom at Advanced Senior Living LLC', caption: 'Resident bedroom.' }
+      { src: 'assets/photos/care-home-3-ai.png', alt: 'Living room at Advanced Senior Living LLC in West Hills', caption: '7017 Deveron Ridge Rd, West Hills, CA 91306.' },
+      { src: 'assets/photos/care-home-3-piano-ai.png', alt: 'Piano sitting room at Advanced Senior Living LLC', caption: 'Piano sitting room.' },
+      { src: 'assets/photos/care-home-3-living-sign-ai.png', alt: 'Living room with Advanced Senior Living LLC wall sign', caption: 'Shared living room.' },
+      { src: 'assets/photos/care-home-3-living-ai.png', alt: 'Sofa seating area at Advanced Senior Living LLC', caption: 'Shared living room.' },
+      { src: 'assets/photos/care-home-3-tv-room-ai.png', alt: 'TV room at Advanced Senior Living LLC', caption: 'TV room.' },
+      { src: 'assets/photos/care-home-3-patio-ai.png', alt: 'Covered patio at Advanced Senior Living LLC', caption: 'Covered patio.' },
+      { src: 'assets/photos/care-home-3-dining-ai.png', alt: 'Dining area at Advanced Senior Living LLC', caption: 'Dining area.' },
+      { src: 'assets/photos/care-home-3-open-kitchen-ai.png', alt: 'Open kitchen and dining area at Advanced Senior Living LLC', caption: 'Open kitchen and dining area.' },
+      { src: 'assets/photos/care-home-3-kitchen-wide-ai.png', alt: 'Kitchen at Advanced Senior Living LLC', caption: 'Kitchen.' },
+      { src: 'assets/photos/care-home-3-bedroom-pink-ai.png', alt: 'Pink resident bedroom at Advanced Senior Living LLC', caption: 'Resident bedroom.' }
     ]
   },
   raymer: {
     title: 'Advanced Senior Living 2 LLC',
     photos: [
-      { src: 'assets/photos/care-home-4.jpg', alt: 'Common room at Advanced Senior Living 2 LLC in Sherwood Forest', caption: '17241 Raymer St, Sherwood Forest, CA 91325.' },
-      { src: 'assets/photos/care-home-4-bedroom-tv.jpg', alt: 'Resident bedroom with TV at Advanced Senior Living 2 LLC', caption: 'Resident bedroom.' },
-      { src: 'assets/photos/care-home-4-bedroom-blue.jpg', alt: 'Blue bedroom at Advanced Senior Living 2 LLC', caption: 'Resident bedroom.' },
-      { src: 'assets/photos/care-home-4-bedroom-white.jpg', alt: 'White bedroom at Advanced Senior Living 2 LLC', caption: 'Resident bedroom.' },
-      { src: 'assets/photos/care-home-4-bedroom-plum.jpg', alt: 'Plum bedroom at Advanced Senior Living 2 LLC', caption: 'Resident bedroom.' }
+      { src: 'assets/photos/care-home-4-ai.png', alt: 'Common room at Advanced Senior Living 2 LLC in Sherwood Forest', caption: '17241 Raymer St, Sherwood Forest, CA 91325.' },
+      { src: 'assets/photos/care-home-4-bedroom-tv-ai.png', alt: 'Resident bedroom with TV at Advanced Senior Living 2 LLC', caption: 'Resident bedroom.' },
+      { src: 'assets/photos/care-home-4-bedroom-blue-ai.png', alt: 'Blue bedroom at Advanced Senior Living 2 LLC', caption: 'Resident bedroom.' },
+      { src: 'assets/photos/care-home-4-bedroom-white-ai.png', alt: 'White bedroom at Advanced Senior Living 2 LLC', caption: 'Resident bedroom.' },
+      { src: 'assets/photos/care-home-4-bedroom-plum-ai.png', alt: 'Plum bedroom at Advanced Senior Living 2 LLC', caption: 'Resident bedroom.' }
     ]
   }
 };
