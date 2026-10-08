@@ -436,7 +436,13 @@ p { color: var(--muted); margin: 0; }
   background: #fff;
   box-shadow: 0 14px 48px rgba(6,24,72,0.1);
 }
-.home-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--warm); }
+.home-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--warm);
+  filter: saturate(1.05) contrast(1.03) brightness(1.01);
+}
 .home-card-body { padding: 24px; }
 .home-label {
   margin-bottom: 8px;
@@ -574,6 +580,7 @@ p { color: var(--muted); margin: 0; }
   margin: 20px 0 12px;
   border-radius: var(--radius);
   background: var(--warm);
+  filter: saturate(1.05) contrast(1.03) brightness(1.01);
 }
 .modal-close {
   position: absolute;
