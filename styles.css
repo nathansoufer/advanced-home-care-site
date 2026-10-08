@@ -563,9 +563,13 @@ p { color: var(--muted); margin: 0; }
   box-shadow: 0 30px 90px rgba(0,0,0,0.25);
 }
 .modal-content { padding: 24px; }
+#galleryTitle {
+  padding-right: 54px;
+  font-size: clamp(1.9rem, 4vw, 3.2rem);
+}
 .modal-content img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: clamp(260px, 43vh, 390px);
   object-fit: cover;
   margin: 20px 0 12px;
   border-radius: var(--radius);
